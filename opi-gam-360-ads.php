@@ -3,7 +3,7 @@
  * Plugin Name:       OPI GAM 360 Ads
  * Plugin URI:        https://oahupublications.com/
  * Description:       Provides a UI and plugin based method to implement GAM 360 Ads on a site. 
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            Oahu Publications Inc.
  * Author URI:        https://oahupublications.com/
  */
@@ -22,11 +22,11 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'opi-gam-360-ads'
 );
 
-//Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('production');
+// //Set the branch that contains the stable release.
+// $myUpdateChecker->setBranch('production');
 
-//Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('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');
+// //Optional: If you're using a private repository, specify the access token like this:
+// $myUpdateChecker->setAuthentication('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');
 
 /**
  * Require the core class for ad functionality
