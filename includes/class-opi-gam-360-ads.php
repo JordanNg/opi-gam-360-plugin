@@ -639,7 +639,7 @@ class OPI_GAM_360_Ads {
      */
     public function determine_definition_type() {
         // Include the external definition types file
-        include( plugin_dir_path( __FILE__ ) . "/determine_definition_type.php" );
+        include( plugin_dir_path( __DIR__ ) . "determine_definition_type.php" );
     }
 
     /**
